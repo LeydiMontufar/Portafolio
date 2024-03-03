@@ -1,8 +1,8 @@
 header {
     text-align: center; /* Centra el texto */
-    background-color: #757272; /* Color de fondo */
-    color: white; /* Color del texto */
-    padding: 20px 0; /* Espaciado interior (arriba y abajo) */
+    background-color: #2f5263; /* Color de fondo */
+    color: rgba(200, 209, 218, 0.993); /* Color del texto */
+    padding: 10px 0; /* Espaciado interior (arriba y abajo) */
 }
 
 /* Estilos para los enlaces del menú */
@@ -13,17 +13,17 @@ nav ul {
 
 nav ul li {
     display: inline; /* Muestra los elementos en línea */
-    margin-right: 20px; /* Espacio entre elementos */
+    margin-right: 20px; /* Espacio entre elementos /inicio7quien soy yo/proyecto*/
 }
 
 nav ul li a {
     text-decoration: none; /* Quita el subrayado del enlace */
-    color: white; /* Color del texto */
-    font-size: 18px; /* Tamaño de fuente */
+    color: rgba(200, 209, 218, 0.993); /* Color del texto */
+    font-size: 20px; /* Tamaño de fuente */
     font-weight: bold; /* Texto en negrita */
     transition: all 0.3s ease; /* Efecto de transición */
 }
 
 nav ul li a:hover {
-    color: #ffcc00; /* Cambia el color al pasar el ratón */
+    color: #2da7ac; /* Cambia el color al pasar el ratón */
 }

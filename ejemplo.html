@@ -4,47 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de Mí con Imagen</title>
-    <style>
-        /* Estilos para la sección Acerca de Mí */
-        #acerca {
-            display: flex; /* Usa flexbox para organizar los elementos */
-            align-items: center; /* Alinea verticalmente los elementos */
-            padding: 50px 0; /* Espaciado interior (arriba y abajo) */
-            background-color: #f2f2f2; /* Color de fondo */
-        }
-
-        #acerca .container {
-            max-width: 800px; /* Ancho máximo del contenido */
-            margin: 0 auto; /* Centra horizontalmente */
-            display: flex; /* Usa flexbox para organizar los elementos internos */
-            justify-content: space-between; /* Distribuye los elementos horizontalmente */
-        }
-
-        #acerca h2 {
-            font-size: 32px; /* Tamaño de fuente del título */
-            color: #333; /* Color del texto del título */
-        }
-
-        #acerca p {
-            font-size: 18px; /* Tamaño de fuente del párrafo */
-            color: #666; /* Color del texto del párrafo */
-        }
-
-        #acerca img {
-            max-width: 200px; /* Ancho máximo de la imagen */
-            margin-right: 20px; /* Espacio entre la imagen y el texto */
-        }
-    </style>
+ 
 </head>
 <body>
-    <section id="acerca">
-        <div class="container">
-            <img src="ruta/a/tu/imagen.jpg" alt="Imagen de perfil">
-            <div>
-                <h2>Acerca de Mí</h2>
-                <p>Breve descripción sobre ti y tus habilidades como ingeniero de sistemas.</p>
-            </div>
+    <div class="carousel">
+        <input type="radio" id="slide1" name="slides" checked>
+        <input type="radio" id="slide2" name="slides">
+        <input type="radio" id="slide3" name="slides">
+      
+        <div class="slides">
+          <div class="slide slide1">Slide 1</div>
+          <div class="slide slide2">Slide 2</div>
+          <div class="slide slide3">Slide 3</div>
         </div>
-    </section>
+      
+        <div class="navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
+      </div>
+      
 </body>
 </html>
