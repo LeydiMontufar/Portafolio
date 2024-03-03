@@ -1,0 +1,29 @@
+header {
+    text-align: center; /* Centra el texto */
+    background-color: #757272; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interior (arriba y abajo) */
+}
+
+/* Estilos para los enlaces del menú */
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    transition: all 0.3s ease; /* Efecto de transición */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cambia el color al pasar el ratón */
+}

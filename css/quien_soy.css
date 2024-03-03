@@ -1,0 +1,29 @@
+     /* Estilos para la sección Acerca de Mí */
+     #acerca {
+        display: flex; /* Usa flexbox para organizar los elementos */
+        align-items: center; /* Alinea verticalmente los elementos */
+        padding: 90px 0; /* Espaciado interior (arriba y abajo) */
+        background-color: #f2f2f2; /* Color de fondo */
+    }
+
+    #acerca .quien_soy_yo {
+        max-width: 800px; /* Ancho máximo del contenido */
+        margin: 0 auto; /* Centra horizontalmente */
+        display: flex; /* Usa flexbox para organizar los elementos internos */
+        justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    }
+
+    #quien_soy_yo h2 {
+        font-size: 32px; /* Tamaño de fuente del título */
+        color: #333; /* Color del texto del título */
+    }
+
+    #acerca p {
+        font-size: 18px; /* Tamaño de fuente del párrafo */
+        color: #666; /* Color del texto del párrafo */
+    }
+
+    #acerca img {
+        max-width: 300px; /* Ancho máximo de la imagen */
+        margin-right: 50px; /* Espacio entre la imagen y el texto */
+    }
